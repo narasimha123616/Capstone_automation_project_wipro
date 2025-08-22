@@ -1,0 +1,16 @@
+package control_statement;
+
+public class simple {
+	
+	public static void main(String[] args) {
+		int age=10;
+	
+		if(age>=18) {
+			System.out.println("hi");
+		}
+		else {
+			System.out.println("bye");
+		}
+		System.out.println("Tata");
+	}
+}
