@@ -1,0 +1,12 @@
+<suite name="ParallelSuite" parallel="classes" thread-count="3">
+    <test name="ParallelTestExecution">
+      <parameter name="username" value="admin"/>
+      <parameter name="password" value="admin@123123"/>
+        <classes>
+            <class name="TestNG_package.practice5a"/>
+            <class name="TestNG_package.practice5b"/>
+            <class name="TestNG_package.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
